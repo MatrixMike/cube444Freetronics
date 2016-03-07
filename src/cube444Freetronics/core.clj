@@ -19,11 +19,11 @@
 ;(dotimes [i 4] (spit "cube2.txt" (str "set " "00"i " red;\n") :append true )  )
 
 (dotimes [i 4] (spit cubefile (str "set " i"00" " red;\n") 		:append true )  )
-(dotimes [i 4] (spit "cube2.txt" (str "set " "0"i"0"      " red;\n") 	:append true )  )
-(dotimes [i 4] (spit "cube2.txt" (str "set " "3"i"0"      " red;\n") 	:append true )  )
-(dotimes [i 4] (spit "cube2.txt" (str "set " i"30" " red;\n") 		:append true )  )
+(dotimes [i 4] (spit cubefile (str "set " "0"i"0"      " red;\n") 	:append true )  )
+(dotimes [i 4] (spit cubefile (str "set " "3"i"0"      " red;\n") 	:append true )  )
+(dotimes [i 4] (spit cubefile (str "set " i"30" " red;\n") 		:append true )  )
 ;;;;;
-;(dotimes [i 4] (spit "cube2.txt" (str "set " "00"i " red;\n") :append true )  )
+;(dotimes [i 4] (spit cubefile (str "set " "00"i " red;\n") :append true )  )
 ;
 
 (dotimes [i 4] (spit cubefile (str "set " i"03"  colour2 ";\n") :append true )  )
@@ -34,7 +34,7 @@
 ;
 
 (defn -main [& args]
-(dotimes [i 4] (spit "cube2.txt" (str "set " i"33"  colour2 ";\n") :append true )  )
+(dotimes [i 4] (spit cubefile (str "set " i"33"  colour2 ";\n") :append true )  )
 )
 ;
 
