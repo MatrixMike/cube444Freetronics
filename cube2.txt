@@ -27,7 +27,3 @@ set 303 blue;
 set 313 blue;
 set 323 blue;
 set 333 blue;
-set 033 blue;
-set 133 blue;
-set 233 blue;
-set 333 blue;
